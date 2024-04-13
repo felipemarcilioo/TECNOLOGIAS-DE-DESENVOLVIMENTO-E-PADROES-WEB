@@ -1,5 +1,8 @@
-
 /*ESTILO GERAL DO SITE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,33 +10,33 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: white;
     height: 100vh;
 }
 
 .intercace{
-    max-width: 1200px;
+    max-width: 1420px;
+    
     margin: 0 auto;
 }
 
 .flex{
     display: flex;
+    margin-bottom: 40px;
 }
 
 /* ESTILO DO CABEÇALHO */
-header{
-    padding: 40px 4%; 
-}
+
 
 header > .intercace{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Raleway", sans-serif;
 }
 
 header a{
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -41,7 +44,7 @@ header a{
 }
 
 header a:hover{
-    color: #ff0000;
+    color: black;
     transform: scale(1.05);
 }
 
@@ -58,22 +61,22 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff0000;
+    background-color: black;
     border: 0;
     color: #ffffff;
     border-radius: 30px;
     cursor: pointer;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Raleway", sans-serif;
 }
 
 header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #ff0000;
+    box-shadow: 0px 0px 8px black;
 }
 
 h2.titulo{
-    color: #FF0000;
+    color: black;
     font-size: 28px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Raleway", sans-serif;
     text-align: center;
 }
 
@@ -81,7 +84,7 @@ h2.titulo{
 
 section.topo-do-site{
     padding: 40px 4%;
-    box-shadow: 0 0 10px #ff000079;
+    box-shadow: 0 0 10px black;
 }
 
 section.topo-do-site .flex{
@@ -91,20 +94,23 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1{
-    color: #FF0000;
+    margin-top: 80px;
+    color: black;
     font-size: 30px;
-    line-height: 25px;
+    line-height: 33px;
+    font-family: "Raleway", sans-serif;
 }
 
 .topo-do-site p{
-    color: rgb(255, 255, 255);
+    color: black;
     margin: 30px 0px;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 35px;
+    font-family: "Raleway", sans-serif;
 }
 
 .topo-do-site h2{
-    color: rgb(255, 255, 255);
+    color: black;
     margin: 10px;
 }
 
@@ -112,15 +118,15 @@ section.topo-do-site .flex{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff5353;
+    background-color: black;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #ff0000;
+    box-shadow: 0px 0px 8px black;
     transform: scale(1.05);
 }
 
@@ -128,7 +134,7 @@ section.topo-do-site .flex{
 
 section.especialidades{
     padding: 40px 4%;
-    box-shadow: 0 0 10px #ff000079;
+    box-shadow: 0 0 10px white;
 }
 
 section.especialidades .flex{
@@ -136,32 +142,41 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box{
-    color: #000000;
+    color: white;
     padding: 40px;
-    border: 2px solid #000000;
+    border: 2px solid white;
     margin-top: 35px;
     border-radius: 25px;
+    text-align: center;
+    background-color: white;
 }
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px #ff0000;
+    box-shadow: 0 0 8px white;
+}
+
+.especialidades .especialidades-box img{
+    border-radius: 8px;
 }
 
 .especialidades .especialidades-box h3{
     font-size: 28px;
-    color: #FF0000;
+    color: black;
     margin: 15px 0;
+    font-family: "Raleway", sans-serif;
 }
 
 .especialidades .especialidades-box p{
-    color: #ffffff;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
 }
 
 /*ESTILO DO SOBRE*/
 section.sobre{
-    padding: 40px 6%;
-    box-shadow: 0 0 10px #ff000079;
+    padding: 50px 6%;
+    box-shadow: 0 0 10px black;
 }
 
 section.sobre .flex{
@@ -170,20 +185,22 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre{
-    color: #ffffff;
+    color: black;
 }
 
 .sobre .txt-sobre h2{
-    color: #FF0000;
+    color: black;
     font-size: 35px;
     line-height: 40px;
     margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
 }
 
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: justify;
     font-size: 20px;
+    font-family: "Raleway", sans-serif;
 }
 
 .btn-social button{
@@ -191,7 +208,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #FF0000;
+    background-color: black;
     font-size: 25px;
     cursor: pointer;
     margin: 0 10px;
@@ -199,7 +216,7 @@ section.sobre .flex{
 }
 
 .btn-social button:hover{
-    box-shadow: 0px 0px 8px #ff0000;
+    box-shadow: 0px 0px 8px black;
     transform: scale(1.05);
 }
 
@@ -207,7 +224,7 @@ section.sobre .flex{
 
 section.formulario{
     padding: 80px 4%;
-    box-shadow: 0 0 10px #ff000079;
+    box-shadow: 0 0 10px black;
 }
 
 form{
@@ -222,21 +239,21 @@ form{
 
 form input, form textarea{
     width: 100%;
-    background-color: #222222;
+    background-color: lightgrey;
     border: 0;
     outline: 0;
     padding: 15px 15px;
     border-radius: 15px;
-    color: #ffffff;
+    color: black;
     font-size: 18px;
 }
 
 form input::placeholder{
-    color: #ff000091;
+    color: black;
 }
 
 form input, form textarea::placeholder{
-    color: #ff000091;
+    color: black;
 }
 
 form textarea{
@@ -250,14 +267,14 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #FF0000;
-    color: #ffffff;
+    background-color: lightgrey;
+    color: black;
     font-weight: 700;
     cursor: pointer;
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px #ff0000;
+    box-shadow: 0px 0px 8px black;
     transform: scale(1.05);
 }
 
@@ -265,7 +282,7 @@ button:hover, form .btn-enviar input:hover{
 
 footer{
     padding: 40px 10%;
-    box-shadow: 0 0 10px #ff000079;
+    box-shadow: 0 0 10px black;
 }
 
 footer .flex{
@@ -273,27 +290,27 @@ footer .flex{
 }
 
 footer .line-footer{
-    padding: 25px 0;
+    padding: 5px 0;
 }
 
-.borda{
-    border-top: 2px solid #FF0000;
-}
 
 footer .line-footer p i{
-    color: #ff0000;
+    color: black;
     font-size: 25px;
+    font-family: "Raleway", sans-serif;
 }
 
 footer .line-footer p a{
-    color: #ffffff;
+    color: black;
     font-size: 20px;
+    font-family: "Raleway", sans-serif;
 }
 
 .mapa{
     position: relative;
-    background: #ffffff;
+    background: black;
     border: 50px;
+    padding: 0px;
 }
 
 .mapa iframe{
@@ -301,3 +318,70 @@ footer .line-footer p a{
     height: 100%;
 }
 
+/*ESTILO DO RODAPÉ*/
+
+.rodape button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.rodape .especialidades-box{
+    
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.rodape .especialidades-box p{
+    
+    margin-top: 10px;
+    
+}
+
+
+
+section.rodape .flex{
+    
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+}
+
+section.rodape{
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+
+
+
+section .line-footer p i{
+    color: black;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+}
+
+section .line-footer p a{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------*/
