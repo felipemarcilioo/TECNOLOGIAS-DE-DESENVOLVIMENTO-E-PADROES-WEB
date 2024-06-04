@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--link icones-->
+    <link rel="stylesheet" href="style.css">
+    <title>Academia</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="intercace">
+            <div class="logo">
+                <a href="">
+                    <img src="img/adev.png" alt="logo da Academia" width="350px" style="margin-top: 25px; margin-bottom: 25px;">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="#cliente">Cliente</a></li>
+                    <li><a href="sobreAEmpresa.html">Sobre a Empresa</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#rodape">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <div class="banner ">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/banner3.jpg" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/banner1.png" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/banner2.jpg" alt="Segundo Slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+        <section class="topo-do-site ">
+            <div class="intercace">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>QUEM TEM UM OBJETIVO, NÃO TEM DESCULPA, FOQUE E TREINE COM DETERMINAÇÃO.</h1>
+                        <p>Situada no coração de uma cidade vibrante, a Academia tem sido o
+                            centro de excelência esportiva há mais de duas décadas. Fundada por um grupo de atletas
+                            dedicados e treinadores apaixonados.</p>
+                        
+
+                        <div class="btn-contato">
+
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/academia.jpg" alt="" width="500px">
+                    </div> <!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">NOSSOS SERVIÇOS.</h2>
+                <div class="flex">
+                    <div class="especialidades-box" onclick="(window.location='musculacao.html')">
+                        <img src="img/musculacao.jpg" alt="" width="300px">
+                        <h3>MUSCULAÇÃO</h3>
+                        <p>Atividade física que pode ser realizada em diferentes intensidades e que faz com que os
+                            músculos se contraiam contra uma resistência externa.</p>
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box" onclick="(window.location='cardio.html')">
+                        <img src="img/cardio.jpg" alt="" width="300px">
+                        <h3>CARDIO</h3>
+                        <p>É uma modalidade de exercícios que têm como objetivo fortalecer o sistema cardíaco, os
+                            pulmões e os músculos através de atividades físicas.</p>
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box" onclick="(window.location='pilates.html')">
+                        <img src="img/pilates.jpg" alt="" width="300px">
+                        <h3>PILATES</h3>
+                        <p>Melhora da coordenação motora, aumento da flexibilidade e mobilidade, melhora do equilíbrio e
+                            da postura e da capacidade cardiorrespiratória.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especilidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/pessoa.png" alt="pessoa" width="300px">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>EMPRESÁRIO SR. MANOEL JARDIM GOMES.</h2>
+                        <p>Manoel Jardim Gomes nasceu em Balsas e, desde a infância, se interessava por academia. Chegou
+                            a afirmar, em entrevistas, que treina desde os 15 anos de idade.</p>
+                        <p>Com o projeto Academia de Esportes Victory, Manoel Gomes conseguiu reavivar sua popularidade
+                            em 2022, sobretudo em redes sociais como TikTok e Instagram.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/manoelgomesbr/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.tiktok.com/@manoelgomesbr"><button><i
+                                        class="bi bi-tiktok"></i></button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <section id="rodape" class="rodape">
+                <div class="interface">
+                    <h2 class="titulo">CONTATO</h2>
+                    
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <h2 class="titulo">LOCALIZAÇÃO</h2>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d645.5550162963048!2d-53.28134698436095!3d-23.75413120441544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712944291706!5m2!1spt-BR!2sbr"
+                                width="280" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                        </div>
+
+
+                        <div class="especialidades-box">
+                            <h2 class="titulo">REDES SOCIAIS</h2>
+
+                            <a href="https://www.instagram.com/victory.academia/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.facebook.com/victoryacademia/?locale=pt_BR"><button><i
+                                        class="bi bi-facebook"></i></button></a>
+                            <a href="https://api.whatsapp.com/send?phone=5544999812672"><button><i
+                                        class="bi bi-whatsapp"></i></button></a>
+
+                            <div class="line-footer borda">
+
+                                <p><i class="bi bi-envelope-fill"></i> <a
+                                        href="mailto:academiavictory@gmail.com">academiavictory@gmail.com</a></p>
+                            </div>
+
+                        </div>
+
+                        <div class="especialidades-box">
+                            <h2 class="titulo">FALE CONOSCO</h2>
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="E-mail:">
+                                <input type="text" name="" id="" placeholder="Telefone:">
+                                <textarea name="" id="" placeholder="Sua Mensagem:"></textarea>
+                                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                            </form>
+                        </div>
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--rodape-->
+        </section>
+
+
+    </main>
+</body>
+
+</html>
